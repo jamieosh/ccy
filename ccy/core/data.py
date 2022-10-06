@@ -578,6 +578,30 @@ def make_ccys(db):
         symbol=r"R",
         html="R",
     )
+    # TODO: Check towletters code and position
+    insert(
+        "OMR",
+        "512",
+        "OM",
+        850,
+        "Omani Rial",
+        dfr,
+        "OM",
+        symbol=r"\u0631\u002e\u0639\u002e",
+        html="&#65020;",
+    )
+    # TODO: Check towletters code and position
+    insert(
+        "LBP",
+        "422",
+        "LL",
+        850,
+        "Lebanese Pound",
+        dfr,
+        "LB",
+        symbol=r"\u00a3",
+        html="&#xa3;",
+    )
 
     # BITCOIN
     insert("XBT", "000", "BT", -1, "Bitcoin", 8, "WW", symbol=r"\u0e3f", html="&#xe3f;")
